@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo"><a href="#" style="color: white;">Tours</a></h1> 
+        <ul class="nav-links">
+            <a href="#">Home</a>
+            <a href="#tours">Tours</a>
+            <a href="#explore">Explore</a>
+            <a href="#about">About</a>
+            <a href="#" class="ctn">Contact</a>      
+        </ul>
+        
+        <img src="menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--==Events==-->
+
+    <section class="events" id="tours">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="Raigad trek.png">
+                <h4>Raigad Fort camp Trek</h4>
+                <p> Raigad was known as the mountain of “Rairi” before it was captured by Shivaji Maharaj.
+                    Due to its impregnability, Raigad was known as “Gibraltar of East”. 
+                    In the 16th century, when this was not developed as a fort, it was called by local people as “Rashivata” and “Tanas”. 
+                    Due to its shape of a tall oil lamp tower, it was also called as “Nandadeep”. On 6th April 1656, Shivaji Maharaj besieged 
+                    Rairi and captured it in May. The then Subhedar of Kalyan was transporting the treasure of Adilshah to Bijapur,
+                    which was raided by Marathas and utilized to fortify Raigad.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+
+            <div class="col">
+                <img src="Keral.jpg">
+                <h4>Kerala Tour Packages</h4>
+                <p> The coastal grandeur in the arms of mother earth, cloaked with serene love, lies India’s Southern surreal.
+                    Vasco da Gamas discovery of India for the western world began with his first step in this land.
+                     God’s own Country, Kerala, leaves so many visitors spellbound. The record has peaked and Kerala has managed
+                      to top the numbers every year. Kerala manages to satisfy all the desires to escape into pure nature.
+                       With the classic backwaters and leisurely feels of the destination, 
+                       it has always been the traveller’s favourite choice.!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+            
+    </section>
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>Discover the World,
+                specially curated for you!</h1>
+            <div class="line"></div>
+            <p>Our exclusive customized holidays division can cater to every travel need: hotel, air tickets, VISA, sightseeings, transfer or the entire package, all designed keeping in mind your interests!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+    
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>All inclusive tours, Chalo Bag Bharo Nikal Pado!</h1>
+                <div class="line"></div>
+                <P>Our itineraries include all rail, sea and road transport as part of the itinerary so you can enjoy tension free</P>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img3.png" alt="">
+                    <img src="img4.png" alt="">
+                    <img src="img5.png" alt="">
+                    <img src="img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="about">
+        <p>Mumbai, Maharashtra, India | Phone :   +91  9988776644 | Email: tours@gmail.com</p>
+        
+    </section>
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+
+    </script>
+</body>
+
+</html>
